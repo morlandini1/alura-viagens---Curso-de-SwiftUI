@@ -1,10 +1,11 @@
+
 [
     {
         "id": 1,
         "titulo": "Rio de Janeiro",
         "imagem": "img1",
         "quantidadeDeDias": "6 dias",
-        "valor": "1.200,00",
+        "valor": "1.300,00",
         "coordenada": {
             "longitude": -43.2096,
             "latitude": -22.9035

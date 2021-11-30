@@ -2,8 +2,8 @@
 //  HeaderView.swift
 //  alura-viagens
 //
-//  Created by Ândriu Felipe Coelho on 12/02/20.
-//  Copyright © 2020 Ândriu Felipe Coelho. All rights reserved.
+//  Created by Marcio Orlandini on 29/11/21.
+//  Copyright © 2021 Marcio Orlandini. All rights reserved.
 //
 
 import SwiftUI
