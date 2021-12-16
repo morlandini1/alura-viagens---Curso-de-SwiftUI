@@ -17,6 +17,12 @@ struct ListaDePacotesView: View {
             $0.categoria.rawValue
         })
     }
+    
+    init() {
+        UITableView.appearance().separatorStyle = .none
+        UITableViewCell.appearance().backgroundColor = UIColor(red: 247.0/255, green: 247.0/255, blue: 247.0/255, alpha: 1)
+        UINavigationBar.appearance().backgroundColor = UIColor(red: 247.0/255, green: 247.0/255, blue: 247.0/255, alpha: 1)
+    }
 
     var body: some View {
         NavigationView {
@@ -28,8 +34,13 @@ struct ListaDePacotesView: View {
                 }
             }
             .navigationBarTitle("Pacotes")
+            .padding(.leading, -10)
+            .padding(.trailing, -10)
+        
         }
+        .edgesIgnoringSafeArea(.top)
     }
+    
 }
 
 struct ListaDePacotesView_Previews: PreviewProvider {
