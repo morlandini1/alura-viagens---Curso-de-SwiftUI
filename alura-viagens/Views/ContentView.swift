@@ -12,8 +12,19 @@ struct ContentView: View {
 
     
     var body: some View {
+        TabView {
+            DestaquesView()
+                .tabItem {
+                    Text("Destaques")
+                    Image("icone-destaques")
+                }
+            ListaDePacotesView()
+                .tabItem {
+                    Text("Pacotes")
+                    Image("icone-mala")
+                }
+         }
 
-        Text("Teste")
     }
 }
 
