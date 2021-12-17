@@ -144,9 +144,9 @@
 		F8B68669276CB5FE00F45329 /* Pacotes */ = {
 			isa = PBXGroup;
 			children = (
-				F831EA3C2768DB6800C9D6B6 /* ListaDePacotesView.swift */,
-				F880E8602757A50B0037DBBE /* SecaoPacotesView.swift */,
 				F85C268127566FF100851241 /* PacotesViagensView.swift */,
+				F880E8602757A50B0037DBBE /* SecaoPacotesView.swift */,
+				F831EA3C2768DB6800C9D6B6 /* ListaDePacotesView.swift */,
 			);
 			path = Pacotes;
 			sourceTree = "<group>";
